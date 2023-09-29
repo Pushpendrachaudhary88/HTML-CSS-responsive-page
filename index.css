@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header1{
+    background-color:pink;
+    padding: 2px;
+    height: 11vh;
+}
+
+.header1 h3{
+    text-align: center;
+    padding: 20px;
+}
+.header2{
+    background-color:seagreen;
+    height: 32vh;
+
+}
+.header2-1{
+    text-align: center;
+    padding: 40px;
+
+}
+
+.navbar{
+    height: 8vh;
+    background-color: lightgray;
+    padding: 16px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+
+}
+.section{
+    display: flex;
+}
+.section1{
+    background-color: azure;
+}
+ .section1 h1{
+    margin-left: 20px;
+    margin-bottom:0;
+    margin-top: 40px;
+}
+.section1 p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.section1 img{
+    width: 91%;
+    height: 37vh;
+    margin-left: 20px;
+}
+.title-img{
+        background-color: #ffcc5c;
+        width: 50%;
+        max-width: 50%;
+        height: auto;
+        padding:10px;
+        border-radius: 8px;
+        position: relative;
+        animation-name: image;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    
+    }
+
+    @keyframes image {
+        0%{ background-color: #FFFF33; left: 0px; top: 0px;}
+        25%{ background-color: #FFFF33; left: 200px; top: 0px;}
+        50%{ background-color: #FFCC33; left:200px; top: 70px;}
+        75%{ background-color: #FFCC33; left: 0px; top: 70px;}
+        100%{ background-color: #FFCC33; left: 0px; top: 0px;} 
+    }
+.section1 h2{
+    margin-left: 20px;
+}
+.section2{
+    background-color:antiquewhite;
+    width: 200%;
+}
+
+.section2 h1{
+    margin-left: 20px;
+    margin-bottom:0;
+    margin-top: 40px;
+}
+.section2 p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.section2 img{
+    width: 91%;
+    height: 37vh;
+    margin-left: 20px;
+}
+.section1 h2{
+    margin-left: 20px;
+}
+.section2 h3{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section2 ul{
+    margin-left: 95px;
+    margin-bottom: 50px;
+
+}
+.footer{
+    background-color:cadetblue;
+    height: 11vh;
+    text-align: center;
+}
+
+.footer h1{
+    padding: 16px;
+}
